@@ -26,10 +26,6 @@ public:
 */
 ostream& operator << (ostream& strm, Triangle T)
 {
-    strm << "Nazwa: " << T.name << endl;
-    //strm << "Bok a: " << T.a << endl;
-    //strm << "Bok b: " << T.b << endl;
-    //strm << "Bok c: " << T.c << endl;
-    strm << "Obwod: " << T.circuit() << endl << endl;
+    strm << "Trojkat: " << T.name << " " << T.circuit() << endl << endl;
     return strm;
 }

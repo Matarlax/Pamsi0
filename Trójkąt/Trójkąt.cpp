@@ -3,7 +3,7 @@
  * Purpose: Czytanie parametrów trójkątów z pliku
  * i wyświetlanie ich
  * @author Mateusz Kubiak
- * @version 1.0 02/03/2020
+ * @version 1.0 03/03/2020
  */
 #include <fstream>
 #include <string>
