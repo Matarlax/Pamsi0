@@ -10,7 +10,7 @@
 #include <vector>
 #include "Triangle.h"
 
-int main() 
+int main()
 {
     vector<Triangle> triangleVector;
     Triangle triangle;
@@ -18,7 +18,7 @@ int main()
     file.open("Trojkaty1.txt");
     if (!file) 
     {
-        cerr << "Nie ma takiego pliku" << endl;
+        cerr << "Nie ma takiego pliku." << endl;
         return 1;
     }
     while (!file.eof()) 
